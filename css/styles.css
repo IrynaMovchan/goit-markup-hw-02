@@ -4,8 +4,10 @@
     --text-color:#212121;
     --contacts-color:#757575;
     --footer-background-color: #2F303A;
-    --footer-logo-address-color:#FFFFFF;
+    --secondary-color:#FFFFFF;
 }
+
+    /* background: #F5F4FA; */
 
 
 body {
@@ -94,7 +96,7 @@ footer{
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--footer-logo-address-color);
+  color: var(--secondary-color);
 }
 
 .footer-logo>span {
@@ -106,7 +108,7 @@ footer{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--footer-logo-address-color);
+    color: var(--secondary-color);
 }
 .footer-address:hover,
 .footer-address:focus {
@@ -136,6 +138,73 @@ footer{
 
 
 
+
+
+/* Portfolio */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowarp;
+    clip-path: insert(100%);
+    clip: rect(0 0 0 0);
+    owerflow: hidden;
+}
+
+.filters{
+}
+
+.filters-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    background: #F5F4FA;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    color: var(--secondary-color);
+    background: var(--accent-color);
+}
+
+.filters-current{
+    color: var(--secondary-color);
+    background: var(--accent-color);
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-color);
+}
+
+.project-name:hover,
+.project-name:focus {
+    color: var(--accent-color);
+}
+
+.filter-type{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.filter-type:hover,
+.filter-type:focus {
+    color: var(--accent-color);
+}
 
 font-family: 'Raleway', sans-serif;
 
