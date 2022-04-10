@@ -3,6 +3,8 @@
     --accent-color:#2196f3;
     --text-color:#212121;
     --contacts-color:#757575;
+    --footer-background-color: #2F303A;
+    --footer-logo-address-color:#FFFFFF;
 }
 
 
@@ -16,6 +18,7 @@ body {
 }
 .list {
     list-style: none;
+    font-style: normal;
 }
 
 /* Header */
@@ -80,6 +83,56 @@ body {
 
 /* Footer */
 
+footer{
+    background: var(--footer-background-color);
+}
+.contacts{}
+
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--footer-logo-address-color);
+}
+
+.footer-logo>span {
+    color: var(--accent-color);
+}
+.footer-address{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-logo-address-color);
+}
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--accent-color);
+}
+
+.footer-email,
+.footer-phone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-email:hover,
+.footer-email:focus {
+    color: var(--accent-color);
+}
+
+.footer-phone:hover,
+.footer-phone:focus {
+    color: var(--accent-color);
+}
 
 
 
