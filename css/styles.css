@@ -1,0 +1,89 @@
+:root{
+    --logo-color: #000000;
+    --accent-color:#2196f3;
+    --text-color:#212121;
+    --contacts-color:#757575;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Убирает декорацию */
+.link {
+  text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/* Header */
+.header {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+
+.header-logo>span {
+    color: var(--accent-color);
+}
+.header-list {
+}
+
+.header-item {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.header-item:hover,
+.header-item:focus {
+    color: var(--accent-color);
+}
+
+.header-email,
+.header-phone {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--contacts-color);
+}
+
+.header-email:hover,
+.header-email:focus {
+    color: var(--accent-color);
+}
+
+.header-phone:hover,
+.header-phone:focus {
+    color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+/* Footer */
+
+
+
+
+
+font-family: 'Raleway', sans-serif;
+
+в кнопки добавить шрифт!
