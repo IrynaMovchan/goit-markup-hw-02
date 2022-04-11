@@ -1,10 +1,10 @@
 :root {
   --logo-color: #000000;
   --accent-color: #2196f3;
-  --text-color: #212121;
-  --contacts-color: #757575;
+  --secondary-text-color: #212121;
+  --main-text-color: #757575;
   --footer-background-color: #2f303a;
-  --secondary-color: #ffffff;
+  --contacts-color: #ffffff;
 }
 
 /* background: #F5F4FA; */
@@ -50,7 +50,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--secondary-text-color);
 }
 
 .header-item:hover,
@@ -65,7 +65,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--contacts-color);
+  color: var(--main-text-color);
 }
 
 .header-email:hover,
@@ -96,7 +96,7 @@ footer {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  color: var(--contacts-color);
 }
 
 .footer-logo > span {
@@ -108,7 +108,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  color: var(--contacts-color);
 }
 .footer-address:hover,
 .footer-address:focus {
@@ -151,7 +151,7 @@ footer {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--contacts-color);
 }
 
 .hero-btn {
@@ -164,7 +164,7 @@ footer {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--contacts-color);
   background-color: var(--accent-color);
 }
 
@@ -176,7 +176,7 @@ footer {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .features-text {
@@ -186,7 +186,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .works-name {
@@ -197,7 +197,7 @@ footer {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .team-name {
@@ -208,7 +208,7 @@ footer {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .worker-name {
@@ -219,7 +219,7 @@ footer {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .worker-name:hover {
@@ -234,7 +234,7 @@ footer {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .position:hover {
@@ -286,7 +286,7 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--text-color);
+  color: var(--secondary-text-color);
 }
 
 .project-name:hover,
@@ -299,7 +299,7 @@ footer {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .filters-type:hover,
