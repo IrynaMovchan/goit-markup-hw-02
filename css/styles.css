@@ -5,9 +5,9 @@
   --main-text-color: #757575;
   --footer-background-color: #2f303a;
   --contacts-color: #ffffff;
+  --background-hero-color: #2f303a;
+  --background-filters-btn-color: #f5f4fa;
 }
-
-/* background: #F5F4FA; */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -139,7 +139,7 @@ footer {
 /* Index */
 
 .hero {
-  background: #2f303a;
+  background: var(--background-hero-color);
 }
 
 .hero-moto {
@@ -267,7 +267,7 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  background: #f5f4fa;
+  background: var(--background-filters-btn-color);
 }
 
 .filters-btn:hover,
